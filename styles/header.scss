@@ -1,0 +1,165 @@
+.container_header {
+  .wrapper {
+    .header_col {
+
+      width: 100%;
+      height: 1024px;
+      background: linear-gradient(to right, #ffffff 60%, #232121 30%);
+
+      .header_up_menu {
+        padding-top: 70px;
+        display: flex;
+        margin-left: 162px;
+        margin-right: 162px;
+        justify-content: space-between;
+        align-items: center;
+
+        .header_logo_img {
+          a {
+            img {
+
+            }
+          }
+        }
+
+        .header_links {
+          display: flex;
+
+          .header_link {
+            margin-right: 40px;
+
+            .counter {
+              position: relative;
+              font-Weight: 300;
+              font-Size: 18px;
+              line-height: 23.08px;
+              color: #fff;
+              right: -22px;
+              top: -32px;
+            }
+          }
+
+          .header_link_menu {
+            padding-left: 100px;
+          }
+        }
+      }
+
+      .header_content {
+        margin-top: 180px;
+        margin-left: 162px;
+        width: 500px;
+        height: 71px;
+        display: flex;
+        flex-wrap: nowrap;
+
+        h1 {
+
+          font-family: "Forum";
+          flex-direction: column;
+          font-weight: 400;
+          font-size: 64px;
+          line-height: 71px;
+          align-items: center;
+          letter-spacing: 0.03em;
+
+          color: #272727;
+
+          &:after {
+            margin: 0 auto;
+            margin-top: 50px;
+            content: "";
+            display: block;
+            height: 1px;
+
+            background: green;
+            width: 130px;
+          }
+
+
+        }
+
+        p {
+          font-family: 'Segoe UI';
+          font-style: italic;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 24px;
+          color: #272727;
+          position: absolute;
+          left: 764px;
+          top: 610px;
+        }
+      }
+
+      .header_footer {
+        margin-left: 162px;
+        margin-right: 162px;
+        padding-top: 340px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .lang {
+          font-family: "Roboto Light";
+          margin-top: 19px;
+          span {
+
+            margin-right: 10px;
+          }
+        }
+
+        .card_product {
+          text-align: right;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-bottom: 60px;
+
+
+          .name {
+            font-family: "Roboto Light";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+          }
+
+          .desc {
+            font-family: "Roboto Light";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 23px;
+            color: #C2C2C2;
+
+          }
+
+          .price {
+            font-family: 'Segoe UI';
+            font-style: italic;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            color: #EFC58B;
+
+          }
+        }
+      }
+
+      .header_ring {
+        background-image: url(/img/ring.png);
+        width: 322px;
+        height: 170px;
+        position: relative;
+        left: 50%;
+        top: (427 - 170/2)+px;
+
+      }
+    }
+  }
+}

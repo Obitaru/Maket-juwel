@@ -1,0 +1,23 @@
+.container_section_one{
+  padding-top: 20px;
+  .wrapper{
+    .content_block{
+      display: flex;
+      justify-content: space-between;
+      .card_men{
+        background-image: url(/img/for_men.png);
+        width: 710px;
+        height: 587px;
+        .text{}
+        .header{}
+      }
+      .card_woman{
+      background-image:url(/img/for_women.png);
+      width: 710px;
+      height: 587px;
+        .text{}
+        .header{}
+      }
+    }
+  }
+}
