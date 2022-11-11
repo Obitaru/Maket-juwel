@@ -1,0 +1,19 @@
+{
+  "name": "juwel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.56.0",
+    "scss": "^0.2.4",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.3"
+  }
+}

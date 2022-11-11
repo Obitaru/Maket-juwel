@@ -1,0 +1,15 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #a6e5db;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+
+}
+
+@import "/styles/header";
+@import "/styles/section_one";
