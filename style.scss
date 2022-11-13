@@ -2,7 +2,7 @@ html, body {
   padding: 0;
   margin: 0;
   width: 100%;
-  background-color: #a6e5db;
+  background-color: #fff;
 }
 
 .wrapper {
@@ -13,3 +13,4 @@ html, body {
 
 @import "/styles/header";
 @import "/styles/section_one";
+@import "/styles/section_map.scss";

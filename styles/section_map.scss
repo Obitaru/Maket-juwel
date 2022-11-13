@@ -1,0 +1,85 @@
+.container_section_map {
+  .wrapper {
+    .container {
+      display: flex;
+      padding-top: 20px;
+
+      .search_block {
+        width: 710px;
+        height: 604px;
+        background: #272727;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        .head {
+
+          font-family: 'Forum';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 48px;
+          line-height: 53px;
+          letter-spacing: 0.03em;
+          color: #FFFFFF;
+
+        }
+
+        .desc {
+          padding-top: 16px;
+          font-family: 'Futura PT';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 23px;
+          color: #FFFFFF;
+
+        }
+
+        .search {
+          padding-top: 60px;
+          background: #272727;
+
+          #searchMap {
+            border: none;
+            background: #272727;
+            outline: none; // удаляет обводку в браузерах хром(желтая) и сафари(синяя)
+            height: 44px; // высота на свое усмотрение
+            width: 386px; // ширина на свое усмотрение
+            font-family: 'Futura PT';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 23px;
+            color: rgba(255, 255, 255, 0.4);
+
+            border-bottom: 1.8px solid #FFFFFF;
+
+            &:-webkit-autofill{
+              border: none;
+              -webkit-text-fill-color: rgba(255, 255, 255, 0.4);
+              transition: background-color 5000s ease-in-out 0s;
+              border-bottom: 1.8px solid #FFFFFF;
+            }
+          }
+
+          button {
+            background-color: #272727;
+            border: none;
+            position: relative;
+            right: 40px;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .map_block {
+        width: auto;
+        height: 604px;
+      }
+    }
+  }
+}

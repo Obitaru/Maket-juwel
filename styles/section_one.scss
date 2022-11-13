@@ -1,22 +1,112 @@
-.container_section_one{
+.container_section_one {
   padding-top: 20px;
-  .wrapper{
-    .content_block{
+
+  .wrapper {
+    .content_block {
       display: flex;
       justify-content: space-between;
-      .card_men{
+
+      a {
+        text-decoration: none;
+
+      }
+
+      .card_men {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-image: url(/img/for_men.png);
         width: 710px;
         height: 587px;
-        .text{}
-        .header{}
+        opacity: .9;
+
+        &:hover {
+
+          opacity: 1;
+        }
+
+        .text {
+
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 31px;
+          color: #FFFFFF;
+
+        }
+
+        .header {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 64px;
+          line-height: 71px;
+          letter-spacing: 0.03em;
+          color: #fff;
+
+
+          &:after {
+            display: block;
+            content: "";
+            height: 1px;
+            width: 130px;
+            background-color: #fff;
+            margin: 0 auto;
+            color: #fff;
+            margin-top: 20px;
+
+          }
+
+        }
       }
-      .card_woman{
-      background-image:url(/img/for_women.png);
-      width: 710px;
-      height: 587px;
-        .text{}
-        .header{}
+
+      .card_woman {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-image: url(/img/for_women.png);
+        opacity: .9;
+
+        &:hover {
+          opacity: 1;
+
+        }
+
+        width: 710px;
+        height: 587px;
+
+        .text {
+          text-decoration: none;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 31px;
+          color: #FFFFFF;
+        }
+
+        .header {
+
+          font-style: normal;
+          font-weight: 400;
+          font-size: 64px;
+          line-height: 71px;
+          letter-spacing: 0.03em;
+          color: #FFFFFF;
+
+          &:after {
+            display: block;
+            content: "";
+            height: 1px;
+            width: 130px;
+            background-color: #fff;
+            margin: 0 auto;
+            color: #fff;
+            margin-top: 20px;
+
+          }
+        }
       }
     }
   }
