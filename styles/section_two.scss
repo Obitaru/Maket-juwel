@@ -1,17 +1,61 @@
 .container_section_two {
   .wrapper {
     .container {
-      padding-top: 20px;
+
       display: flex;
 
 
       .left_column {
-        width: 400px;
-        height: 400px;
+        margin-right: 20px;
+        .card_mini {
+          margin-top: 20px;
+          width: 400px;
+          height: 400px;
+          background: #EDEDED;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          img {
+          }
 
+          .name {
+            font-family: 'Futura PT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #272727;
+
+          }
+
+          .desc {
+            font-family: 'Futura PT';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 23px;
+            color: #757575;
+          }
+
+          .price {
+
+            font-family: 'Segoe UI';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            color: #E2B67A;
+          }
+        }
       }
 
       .middle_column {
+        margin-top: 20px;
+
         .card_max {
           width: 600px;
           height: 820px;
@@ -20,11 +64,12 @@
           flex-direction: column;
           justify-content: end;
 
-          .text{
-          padding-left: 20px;
-          padding-bottom: 20px;
+          .text {
+            padding-left: 20px;
+            padding-bottom: 20px;
+
             .name {
-              font-family: "Roboto Light"3;
+              font-family: "Roboto Light" ;
               font-style: normal;
               font-weight: 400;
               font-size: 16px;
@@ -61,8 +106,51 @@
       }
 
       .right_column {
+        margin-left: 20px;
         width: 400px;
         height: 400px;
+
+        .card_mini {
+          margin-top: 20px;
+          width: 400px;
+          height: 400px;
+          background: #EDEDED;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          .name {
+            font-family: 'Futura PT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #272727;
+          }
+
+          .desc {
+            font-family: 'Futura PT';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 23px;
+            color: #757575;
+          }
+
+          .price {
+
+            font-family: 'Segoe UI';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            color: #E2B67A;
+          }
+        }
       }
     }
   }
