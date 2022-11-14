@@ -1,0 +1,69 @@
+.container_section_two {
+  .wrapper {
+    .container {
+      padding-top: 20px;
+      display: flex;
+
+
+      .left_column {
+        width: 400px;
+        height: 400px;
+
+      }
+
+      .middle_column {
+        .card_max {
+          width: 600px;
+          height: 820px;
+          background-image: url(/img/section_two_middle_img.png);
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+
+          .text{
+          padding-left: 20px;
+          padding-bottom: 20px;
+            .name {
+              font-family: "Roboto Light"3;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 21px;
+              letter-spacing: 0.05em;
+              text-transform: uppercase;
+              color: #FFFFFF;
+
+            }
+
+            .desc {
+
+              font-family: "Roboto Light";
+              font-style: normal;
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 23px;
+              color: #E7E7E7;
+            }
+
+            .price {
+              font-family: "Roboto Light";
+              font-style: italic;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 24px;
+              letter-spacing: 0.03em;
+
+              color: #EFC58B;
+            }
+
+          }
+        }
+      }
+
+      .right_column {
+        width: 400px;
+        height: 400px;
+      }
+    }
+  }
+}
